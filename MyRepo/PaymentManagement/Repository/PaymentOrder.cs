@@ -11,11 +11,11 @@ namespace PaymentManagement.Repository
     {
         public Membership createNewMembership(Payment payment)
         {
-            DateTime baseDate = new DateTime();
             /*
-             * Data can be store in SQL/or any databases and can use EF easily to fetch
-             * Here we are using static data with simple list
-            */
+            * Data can be store in SQL/or any databases and can use EF easily to fetch
+            * Here we are using static data with simple list
+           */
+            DateTime baseDate = new DateTime();
             var membership = new Membership()
             {
                 MembershipId = 1,
@@ -28,7 +28,50 @@ namespace PaymentManagement.Repository
 
         public List<PackingSlip> makePaymentOrder(Payment payment)
         {
-            throw new NotImplementedException();
+            /*
+            * Simple logic to implement different payment type
+           */
+            var paymentType = payment.PaymentType;
+            switch (paymentType)
+            {
+                case "PhysicalProduct":
+                    var payslipsForProd = new List<PackingSlip>() {
+                    new PackingSlip(){ SlipId = 1, payment = payment, Status = "Payment Completed",Target = "General"}
+                    };
+                    return payslipsForProd;
+
+                case "Book":
+                    var payslipsForBooks = new List<PackingSlip>() {
+                    new PackingSlip(){ SlipId = 1, payment = payment, Status = "Payment Completed",Target = "General"},
+                    new PackingSlip(){ SlipId = 1, payment = payment, Status = "Payment Completed",Target = "RoyallityDepartment"},
+                    };
+                    return payslipsForBooks;
+
+                case "Video":
+
+                    if (payment.Video == "Learning To Ski")
+                    {
+                        var payslipsForVideoSpecial = new List<PackingSlip>() {
+                    new PackingSlip(){ SlipId = 1, payment = payment, Status = "Payment Completed",Target = "General", VideoUrl = "Free Fist Aid Video"}
+                    };
+                        return payslipsForVideoSpecial;
+                    }
+                    else
+                    {
+                        var payslipsForVideoGeneral = new List<PackingSlip>() {
+                    new PackingSlip(){ SlipId = 1, payment = payment, Status = "Payment Completed",Target = "General"}
+                    };
+                        return payslipsForVideoGeneral;
+                    }
+
+
+                default:
+
+                    var payslips_ = new List<PackingSlip>() {
+                    new PackingSlip(){ SlipId = 0, payment = payment, Status = "",Target = ""}
+                    };
+                    return payslips_;
+            }
         }
 
         /*
