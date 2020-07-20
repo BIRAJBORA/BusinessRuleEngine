@@ -1,0 +1,17 @@
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.exe
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.deps.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.runtimeconfig.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.runtimeconfig.dev.json
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.dll
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\bin\Debug\netcoreapp3.1\PaymentManagement.pdb
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\staticwebassets\PaymentManagement.StaticWebAssets.Manifest.cache
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\staticwebassets\PaymentManagement.StaticWebAssets.xml
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.AssemblyInfoInputs.cache
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.AssemblyInfo.cs
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.RazorTargetAssemblyInfo.cache
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.dll
+C:\Users\biraj.borah\Desktop\Repo\Learning\MyOrgOrderManagement\BusinessRuleEngine\MyRepo\PaymentManagement\obj\Debug\netcoreapp3.1\PaymentManagement.pdb
