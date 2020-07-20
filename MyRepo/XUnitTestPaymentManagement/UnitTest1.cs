@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Mvc;
 using PaymentManagement.Controllers;
+using PaymentManagement.Models;
 using PaymentManagement.Repository.IRepository;
 using System;
 using Xunit;
@@ -19,7 +21,16 @@ namespace XUnitTestPaymentManagement
 
         public void TestForMembership()
         {
+            Payment payment = new Payment()
+            {
+                OwnerEmail = "test@gmail.com",
+                PaymentType = "Membership",
+                Amount = 1000
+            };
+            var createdResponse = _controller.Pay(payment);
 
+            // Assert
+            Assert.IsType<CreatedAtActionResult>(createdResponse);
         }
     }
 }
