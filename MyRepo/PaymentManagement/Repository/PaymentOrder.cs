@@ -11,7 +11,19 @@ namespace PaymentManagement.Repository
     {
         public Membership createNewMembership(Payment payment)
         {
-            throw new NotImplementedException();
+            DateTime baseDate = new DateTime();
+            /*
+             * Data can be store in SQL/or any databases and can use EF easily to fetch
+             * Here we are using static data with simple list
+            */
+            var membership = new Membership()
+            {
+                MembershipId = 1,
+                Owner = payment.OwnerEmail,
+                Product = "New Product",/* We can maintain product list from the company*/
+                ExpiraryDate = baseDate.AddYears(5)
+            };
+            return membership;
         }
 
         public List<PackingSlip> makePaymentOrder(Payment payment)
