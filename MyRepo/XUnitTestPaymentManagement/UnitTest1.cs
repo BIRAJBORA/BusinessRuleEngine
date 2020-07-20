@@ -32,5 +32,20 @@ namespace XUnitTestPaymentManagement
             // Assert
             Assert.IsType<CreatedAtActionResult>(createdResponse);
         }
+
+        [Fact]
+        public void TestForPhysicalOrder()
+        {
+            Payment payment = new Payment()
+            {
+                OwnerEmail = "test@gmail.com",
+                PaymentType = "PhysicalProduct",
+                Amount = 1000
+            };
+            var createdResponse = _controller.Pay(payment);
+
+            // Assert
+            Assert.IsType<CreatedAtActionResult>(createdResponse);
+        }
     }
 }
