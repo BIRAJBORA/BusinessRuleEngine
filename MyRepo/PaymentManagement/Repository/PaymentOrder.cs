@@ -31,9 +31,32 @@ namespace PaymentManagement.Repository
             throw new NotImplementedException();
         }
 
+        /*
+           * Data logic can be relaced with any real time data base
+        */
+
         public Membership updateMembership(Payment payment)
         {
-            throw new NotImplementedException();
+            List<Membership> members = new List<Membership>()
+            {
+                new Membership(){MembershipId = 1, Owner = "", ExpiraryDate = DateTime.Now, Product ="Test Product"},
+                new Membership(){MembershipId = 2, Owner = "", ExpiraryDate = DateTime.Now, Product ="Test Product "}
+            };
+            var membership = members.Find(p => p.Owner == payment.OwnerEmail);
+            if (membership != null)
+            {
+                return membership;
+            }
+            else
+            {
+                return new Membership()
+                {
+                    MembershipId = 0,
+                    Owner = "",
+                    ExpiraryDate = DateTime.Now,
+                    Product = ""
+                };
+            }
         }
     }
 }
